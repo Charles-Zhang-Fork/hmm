@@ -1,4 +1,8 @@
 /bin
 /build
 /hmm
+*.vcxproj.filters
+*.vcxproj.user
 
+.vs
+x64
