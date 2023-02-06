@@ -19,9 +19,11 @@ triangles or vertices. It's also very fast.
 ### Dependencies
 
 - C++11 or higher
-- [glm](https://glm.g-truc.net/0.9.9/index.html)
+- [glm](https://glm.g-truc.net/0.9.9/index.html) (Embedded in the repo since [commit](https://github.com/fogleman/hmm/commit/41021870bf023618e333eefb4448a5e83ad48627))
 
 ### Installation
+
+Linux:
 
 ```bash
 brew install glm # on macOS
@@ -32,6 +34,10 @@ cd hmm
 make
 make install
 ```
+
+Windows:
+
+* Just use the .sln file for Visual Studio
 
 ### Usage
 
